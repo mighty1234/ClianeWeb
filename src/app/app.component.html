@@ -1,0 +1,35 @@
+<div class="row">
+  <div class="input-field col s4">
+    <i class="material-icons prefix">account_circle</i>
+    <input placeholder="Name" [(ngModel)] = "Name" class="validate">
+  </div>
+  <div class="input-field col s4">
+    <i class="material-icons prefix">mail</i>
+    <input placeholder="From"   class="validate" [(ngModel)] = "From">
+  </div>
+
+  <div class="input-field col s4">
+    <i class="material-icons prefix">announcement</i>
+    <input placeholder="To" [(ngModel)] = "To" class="validate">
+  </div>
+</div>
+<div class="row">
+  <div class="input-field col s4">
+  <i class="material-icons prefix">announcement</i>
+  <input placeholder="Theme"[(ngModel)] = "Theme"  class="validate">
+  </div>
+</div>
+<div class="column">
+  <div class="input-field col s4">
+
+    <i class="material-icons prefix">message</i>
+    <textarea placeholder="Message" id="message" [(ngModel)] = "Body" class="validate"></textarea>
+    </div>
+</div>
+
+<button class="btn waves-effect waves-light"(click)="Onclick()" type="submit" name="action">Submit
+  <i class="material-icons right">send</i>
+</button>
+
+
+
